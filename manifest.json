@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "OCR Extension",
+  "version": "1.0",
+  "description": "A chrome extension to extract text from images",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "images/toolbar.png",
+    "32": "images/toolbar.png",
+    "48": "images/toolbar.png",
+    "128": "images/toolbar.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "OCR Extension"
+  }
+}
+
+
+ 

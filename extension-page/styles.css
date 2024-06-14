@@ -1,0 +1,79 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-color: hsl(208.7deg 56.1% 91.96%);
+}
+
+.header {
+   margin: 5px auto;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
+   text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.main_body {
+   font-family: 'Courier New', Courier, monospace;
+   background-color: rgb(116, 114, 205);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   margin: 20px auto;
+   border-radius: 20px;
+   width: 1000px;
+   height: 500px;
+   padding: 30px 0px 0px 0px;
+}
+
+.form {
+   display: flex;
+   justify-content: flex-start;
+   margin: 0px 40px 0px 50px;
+   text-align: center;
+   font-size: 20px;
+   color: white;
+}
+
+label {
+   margin: 1px 0px 0px 10px;
+   text-align: center;
+   font-size: 12px;
+   color: black;
+   font-family: 'Poppins', sans-serif;
+   height: 14px;
+   padding: 3px 9px;
+   border-radius: 3px;
+   background-color: rgb(199, 232, 181);
+}
+
+.output {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   margin: 30px auto 0px;
+   background-color: white;
+   width: 950px;
+   height: 400px;
+   border-radius: 20px;
+}
+
+.output .image {
+   width: 500px;
+   height: auto;
+}
+
+.extract {
+   width: 500px;
+   height: 300px;
+   border-radius: 20px;
+   font-size: 16px;
+   padding: 20px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: rgb(0, 6, 8);
+}
